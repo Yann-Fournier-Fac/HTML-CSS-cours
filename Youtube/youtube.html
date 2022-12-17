@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>youtube.com Clone</title>
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+
+        <link rel="stylesheet" href="style/general.css">
+        <link rel="stylesheet" href="style/video.css">
+        <link rel="stylesheet" href="style/header.css">
+        <link rel="stylesheet" href="style/sidebar.css">
+    </head>
+
+    <body>
+
+        <header class="header">
+            <div class="left-section">
+                <img src="ic/hamburger-menu.svg" class="hamburger-menu">
+
+                <img src="ic/youtube-logo.svg" class="youtube-icon">
+            </div>
+
+            <div class="middle-section">
+                <input class="search-bar" type="text" placeholder="Search">
+                <button class="search-buttom">
+                    <img src="ic/search.svg" class="search-icon">
+                    <div class="tooltip">Search</div>
+                </button>
+                <!--Put position absolute inside position relative-->
+                <button class="voice-search-buttom">
+                    <img src="ic/voice-search-icon.svg" class="voice-search-icon">
+                    <div class="tooltip">Search with your voice</div>
+                </button>
+            </div>
+
+            <div class="right-section">
+                <div class="upload-icon-container">
+                    <img src="ic/upload.svg" class="upload-icon">
+                    <div class="tooltip">Create</div>
+                </div>
+                
+                <div class="youtube-app-container">
+                    <img src="ic/youtube-apps.svg" class="youtube-apps-icon">
+                    <div class="tooltip">Youtube App</div>
+                </div>
+                
+                <div class="notification-icon-container">
+                    <img src="ic/notification.svg" class="notification-icon">
+                    <div class="notifications-count">3</div>
+                    <div class="tooltip">Notification</div>
+                </div>
+
+                <img src="channel-picture/ryu.jpeg" class="current-user-picture">
+            </div>
+        </header>
+
+        <nav class="sidebar">
+            <div class="sidebar-link">
+                <img src="ic/home.svg">
+                <div>Home</div>
+            </div>
+            <div class="sidebar-link">
+                <img src="ic/explore.svg">
+                <div>Explore</div> 
+            </div>
+            <div class="sidebar-link">
+                <img src="ic/subscription.svg">
+                <div>Subscription</div>
+            </div>
+            <div class="sidebar-link">
+                <img src="ic/originals.svg">
+                <div>originals</div>
+            </div>
+            <div class="sidebar-link">
+                <img src="ic/youtube_musique.svg">
+                <div>Youtube Music</div>
+            </div>
+            <div class="sidebar-link">
+                <img src="ic/library.svg">
+                <div>Library</div>
+            </div>
+            
+        </nav>
+
+        <main>
+            <section class="video-grid">
+
+                <div class="video">
+                    <div class="thumbnails-row">
+                        <img class="thumbnail" src="thumbnails/imageyoutube.webp">
+
+                        <div class="video-time">14:20</div>
+                    </div>
+
+                    <div class="video-info-grid">
+
+                        <div class="profil-pic">
+                            <img class="profil-picture" src="channel-picture/unnamed.jpg">
+                        </div>
+
+                        <div class="description">
+                            <p class="video-title">
+                                Best Javascript Tutorial for Beginner for Getting 
+                                a Job in 2021
+                            </p>
+
+                            <p class="video-author">
+                                SuperSimpleDev
+                            </p>
+
+                            <p class="video-stats">
+                                327k vues &#183; il y a 1 an
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="video">
+                    <div class="thumbnails-row">
+                        <img class="thumbnail" src="thumbnails/hq720.webp">
+                        <div class="video-time">3:47</div>
+                    </div>
+
+                    <div class="video-info-grid">
+                        <div class="profil-pic">
+                            <img class="profil-picture" src="channel-picture/elchiki.jpeg">
+                        </div>
+
+                        <div class="description">
+
+                            <p class="video-title">
+                                MA PREMIÈRE GDC 5v5 AVEC MES HDV 15 ! Clash of Clans
+                            </p>
+
+                            <p class="video-author">
+                                Elchiki - Clash Of Clans
+                            </p>
+
+                            <p class="video-stats">
+                                53 k vues &#183; il y a 1 jour
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="video">
+                    <div class="thumbnails-row">
+                        <img class="thumbnail" src="thumbnails/valouz.webp">
+                        <div class="video-time">24:48</div>
+                    </div>
+
+                    <div class="video-info-grid">
+
+                        <div class="profil-pic">
+                            <img class="profil-picture" src="channel-picture/valouz.jpeg">
+                        </div>
+
+                        <div class="description">
+                            <p class="video-title">
+                                La fin de Regalouzz
+                            </p>
+
+                            <p class="video-author">
+                                Valouzz
+                            </p>
+
+                            <p class="video-stats">
+                                488k vues &#183; il y a 2 jours
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="video">
+                    <div class="thumbnails-row">
+                        <img class="thumbnail" src="thumbnails/squezzie.webp">
+                        <div class="video-time">1:42:49</div>
+                    </div>
+
+                    <div class="video-info-grid">
+                        <div class="profil-pic">
+                            <img class="profil-picture" src="channel-picture/squezie.jpeg">
+                        </div>
+
+                        <div class="description">
+
+                            <p class="video-title">
+                                QUI EST L'IMPOSTEUR ? #5 (ft Clara Luciani, Laura Felpin)
+                            </p>
+
+                            <p class="video-author">
+                                SQUEEZIE
+                            </p>
+
+                            <p class="video-stats">
+                                3,4 M de vues &#183; il y a 1 jour
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="video">
+                    <div class="thumbnails-row">
+                        <img class="thumbnail" src="thumbnails/depielo.webp">
+                        <div class="video-time">34:10</div>
+                    </div>
+
+                    <div class="video-info-grid">
+
+                        <div class="profil-pic">
+                            <img class="profil-picture" src="channel-picture/depielo2.jpeg">
+                        </div>
+
+                        <div class="description">
+                            <p class="video-title">
+                                LE SPECTACLE SE TROUVAIT DERRIÈRE ? - BILAN DE LA SAISON 2022 DE FORMULE 1 - Partie 2
+                            </p>
+
+                            <p class="video-author">
+                                Depielo
+                            </p>
+
+                            <p class="video-stats">
+                                24k vues &#183; il y a 4 heures
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="video">
+                    <div class="thumbnails-row">
+                        <img class="thumbnail" src="thumbnails/tiboinshape.webp">
+                        <div class="video-time">33:33</div>
+                    </div>
+
+                    <div class="video-info-grid">
+                        <div class="profil-pic">
+                            <img class="profil-picture" src="channel-picture/tiboinshape.jpeg">
+                        </div>
+
+                        <div class="description">
+
+                            <p class="video-title">
+                                JE DÉTRUIS TIBO INSHAPE À LA SALLE - RETARD BRAS
+                            </p>
+
+                            <p class="video-author">
+                                Essan NFC
+                            </p>
+
+                            <p class="video-stats">
+                                340 k vues &#183; il y a 1 mois
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+            </section>
+        </main>
+
+    </body>
+</html>

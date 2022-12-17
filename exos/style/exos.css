@@ -1,0 +1,424 @@
+/* 7-a) */
+.ex7a {
+    width: 200px;
+    border-radius: 5px;
+}
+
+
+
+
+/* 7-b) */
+.ex7b {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    object-position: center;
+}
+
+
+
+
+/* 7-c) */
+.ex7c {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 100px;
+}
+
+
+
+
+/* 7-d) */
+/* 7-e) */
+/* 7-f) */
+/* 7-g) */
+
+
+
+
+/* 8-a) */
+.enter-name {
+    display: block;
+    margin-bottom: 2px;
+}
+
+.enter-email {
+    display: block;
+}
+
+
+
+/* 8-b) */
+.support {
+    display: inline-block;
+    vertical-align: middle;
+    padding-right: 10px;
+    width: 200px;
+}
+
+.yes {
+    display: inline-block;
+}
+
+.no {
+    display: inline-block;
+}
+
+
+
+
+/* 8-c) */
+.google-logo {
+    width: 300px;
+    display: block;
+    margin-left: 125px;
+    margin-bottom: 0;
+}
+
+.google-search-bar {
+    display: block;
+
+    padding-right: 400px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 15px;
+
+    margin-top: 0;
+
+    font-size: 15px;
+    border-radius: 20px;
+
+    border-color: rgba(0, 0, 0, 0.1);
+
+}
+
+
+
+
+/* 8-d) */
+/* 8-e) */
+
+
+
+
+/* 9-a) */
+.red-square {
+    background-color: red;
+    width: 50px;
+    padding-top: 50px;
+
+}
+
+
+
+
+/* 9-b) */
+.green-circle {
+    background-color: green;
+    width: 50px;
+    padding-top: 50px;
+    border-radius: 25px;
+}
+
+
+
+
+
+/* 9-c) */
+.box {
+    border: solid;
+    border-width: 1px;
+    border-color: rgb(155, 155, 155);
+    width: 350px;
+
+    padding-bottom: 15px;
+    padding-left: 15px;
+    
+}
+
+.para-box {
+    font-family: sans-serif;
+}
+
+
+
+
+
+/* 9-d) */
+.youtube-music {
+    background-color: black;
+    width: 400px;
+    border: solid;
+    padding-left: 13px;
+}
+
+.install {
+    font-size: 25px;
+    color: white;
+    font-family:sans-serif;
+    font-weight: bold;
+    margin-top: 18px;
+    margin-bottom: 9px;
+}
+
+.add {
+    color:rgb(144, 144, 144);
+    font-size: 19px;
+    margin-top: 9px;
+    margin-bottom: 17px;
+}
+
+
+
+
+/* 9-e) */
+/* 9-f) */
+/* 9-g) */
+/* 9-h) */
+
+
+/* 10-a) */
+.cadre {
+    border: solid;
+    width: 505px;
+}
+
+.photo,
+.attributs,
+.bouton {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.nom,
+.race,
+.popu {
+    margin-top: 0;
+    margin-bottom: 0;
+    font-family: Roboto, Arilal;
+}
+
+.photo {
+    width: 100px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.profil {
+    width: 80%;
+    border-radius: 50%;
+    margin-left: 7px;
+}
+
+.nom {
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.race,
+.popu {
+    font-size: 18px;
+    color: rgb(96, 96, 96);
+}
+
+.race {
+    margin-top: 3px;
+    margin-bottom: 3px;
+} 
+
+.follow {
+    background-color: rgb(6, 160, 216);
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    font-size: 18px;
+
+    border: none;
+    border-radius: 5px;
+
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 13px;
+    padding-right: 13px;
+
+    margin-left: 240px;
+
+}
+
+
+
+
+/* 10-b) */
+/* 10-c) */
+/* 10-d) */
+
+
+
+
+/* 11-a) */
+.simple-grid1 {
+    display: grid;
+    grid-template-columns: 200px 75px;
+}
+
+/* 11-b) */
+.simple-grid2 {
+    display: grid;
+    grid-template-columns: 50px 1fr 75px;
+}
+
+/* 11-c) */
+.simple-grid3 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    column-gap: 20px;
+    row-gap: 10px
+}
+
+
+
+
+
+/* 11-d) */
+
+
+
+
+
+
+/* 12-a) */
+.flexbox {
+    display: flex;
+    flex-direction: row;
+}
+
+.deux-cent-px {
+    background-color: lightblue;
+    width: 200px;
+}
+
+.soixante-quinze-px {
+    background-color: lightpink;
+    width: 75px;
+}
+
+
+
+
+
+/* 12-b) */
+.cinquante-px {
+    background-color: lightblue;
+    width: 50px;
+}
+
+.space-left {
+    background-color: lightpink;
+    flex: 1;
+}
+
+.soixante-quinze-blue-px {
+    background-color: lightblue;
+    width: 75px;
+}
+
+
+
+
+
+/* 12-c) */
+.flexbox3 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.cinquant-px {
+    background-color: lightpink;
+    width: 50px;
+}
+
+
+
+
+
+/* 12-d) */
+.flexbox4 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+    border-style: solid;
+    border-radius: 1px;
+    border-color: gray;
+}
+
+.cinquan-px {
+    background-color: lightpink;
+    width: 50px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+
+
+
+/* 12-e) */
+/* 12-f) */
+/* 12-g) */
+
+
+
+
+
+
+/* 13-a) */
+.flexbox1 {
+    display: flex;
+    flex-direction: row;
+}
+
+.pink-side {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    background-color: lightpink;
+    width: 100px;
+    height: 50px;
+}
+
+.blue-side {
+    background-color: lightblue;
+    width: 200px;
+    height: 50px;
+}
+
+
+
+
+
+/* 13-b) */
+.item {
+    background-color: black;
+    color: white;
+}
+
+.row2 {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+
+
+/* 13-c) */
+/* 13-d) */
+/* 13-e) */
+/* 13-f) */
+/* 13-g) */
+
+
+

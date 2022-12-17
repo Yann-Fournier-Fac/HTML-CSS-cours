@@ -1,0 +1,132 @@
+p {
+    font-family: Roboto;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.video-title {
+    font-size: 18px;
+    font-weight: bold;
+    width: 280px;
+    line-height: 24px;
+    margin-bottom: 5px;
+}
+
+.video-stats {
+    font-size: 14px; 
+    color: rgb(96, 96, 96);
+    margin-bottom: 20px;
+}
+
+.video-author {
+    font-size: 14px;
+    color: rgb(96, 96, 96);
+    margin-bottom: 20px;
+}
+
+.video-description {
+    font-size: 14px;
+    color: rgb(96, 96, 96);
+    width: 280px;
+    line-height: 22px;
+    margin-bottom: 100px;
+}
+
+.apple-text {
+    margin-bottom: 50px;
+    font-size: 14px;
+    background-color: rgb(227, 65, 64);
+    color: white;
+    text-align: center;
+
+    padding-top: 18px;
+    padding-bottom: 18px;
+
+}
+
+.shopnow:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.tahoma-font {
+    font-family: Tahoma;
+    font-weight: bold;
+    font-size: 25px;
+}
+
+.deals {
+    font-family: Arial;
+    font-weight: bold;
+    font-size: 25px;
+    margin-top: 20px;
+}
+
+.sale {
+    font-family: Arial;
+    font-style: italic;
+    color: red;
+    font-size: 18px;
+}
+
+.course {
+    font-family: Verdana;
+    font-weight: bold;
+    font-size: 25px;
+    margin-top: 20px; 
+}
+
+.beginner {
+    font-family: Verdanal;
+    font-size: 20px;
+    color: rgb(96, 96, 96);
+}
+
+.details {
+    font-family: Verdana;
+    font-size: 20px;
+    margin-top: 10px;
+    width: 330px;
+    margin-top: 20px;
+}
+
+.get-started {
+    font-family: Verdana;
+    background-color: green;
+    color: white;
+    font-size: 17px;
+
+    border: none;
+
+    padding-top: 11px;
+    padding-bottom: 11px;
+    padding-left: 16px;
+    padding-right: 16px;
+
+    border-radius: 7px;
+    margin-top: 20px;
+}
+
+.shopping {
+    font-family: Arial;
+    font-weight: bold;
+    font-size: 25px;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.apple {
+    font-family: Arial;
+    text-align: center;
+    font-size: 16px;
+    margin-top: 15px;
+}
+
+.learnmore {
+    font-family: Arial;
+    text-align: center;
+    font-size: 16px;
+    margin-top: 15px;
+    color: rgb(80, 80, 166);
+    
+}
